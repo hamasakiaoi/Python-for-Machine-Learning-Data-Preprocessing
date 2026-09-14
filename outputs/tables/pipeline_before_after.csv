@@ -1,0 +1,5 @@
+stage,rows,columns,missing_cells,description
+Raw combined UCI files,48842,15,6465,Original data; '?' parsed as missing
+After exact-duplicate removal,48790,14,6456,Removed exact repeated rows; removed fnlwgt
+After feature selection,48790,12,5600,Removed education_num and native_country
+Processed output,48790,63,0,"Median/mode imputation, one-hot encoding, standardization"

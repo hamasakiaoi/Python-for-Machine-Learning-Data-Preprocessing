@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments and editor files
+.venv/
+venv/
+.qa_venv/
+.env
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Keep intended project artefacts; ignore generated logs only
+*.log

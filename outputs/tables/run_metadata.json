@@ -1,0 +1,51 @@
+{
+  "raw_shape": [
+    48842,
+    15
+  ],
+  "cleaned_shape": [
+    48790,
+    14
+  ],
+  "selected_shape": [
+    48790,
+    12
+  ],
+  "processed_shape": [
+    48790,
+    63
+  ],
+  "raw_missing_cells": 6465,
+  "processed_missing_cells": 0,
+  "missing_by_column": {
+    "workclass": 2799,
+    "occupation": 2809,
+    "native_country": 857
+  },
+  "cleaning": {
+    "duplicates_removed": 52,
+    "columns_removed": [
+      "fnlwgt"
+    ]
+  },
+  "feature_selection": {
+    "education_num": "Exact numeric duplicate of education level; retain the readable categorical education field.",
+    "native_country": "Missing in 1.8% of records and highly imbalanced (United-States dominates); not retained for a compact baseline feature set."
+  },
+  "numerical_features": [
+    "age",
+    "capital_gain",
+    "capital_loss",
+    "hours_per_week"
+  ],
+  "categorical_features": [
+    "workclass",
+    "education",
+    "marital_status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex"
+  ],
+  "encoded_feature_count": 62
+}
